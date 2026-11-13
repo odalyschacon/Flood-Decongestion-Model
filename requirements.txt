@@ -1,0 +1,10 @@
+# Already present in the user's gb10 conda environment. No GIS package install required.
+numpy>=1.24,<3
+pandas>=2,<4
+scipy>=1.10,<2
+pillow>=10,<14
+matplotlib>=3.7,<4
+jupyterlab>=4,<5
+nbformat>=5,<6
+nbclient>=0.10,<1
+openai>=1,<4

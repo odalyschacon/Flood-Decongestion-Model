@@ -1,0 +1,11 @@
+{
+  "notebook_code_cells_executed": 9,
+  "notebook_errors": 0,
+  "baseline_unit_tests": 4,
+  "interactive_scenarios_compared_with_python": 16,
+  "earth2_live_inference": "not used in final API-based workflow",
+  "qwen_live_inference": "completed: three pairs using qwen3-vl-8b-instruct",
+  "projection_reference_error_m": "less than 0.001 at pilot center",
+  "scope": "Computation and data-pipeline validation, not hydraulic model calibration",
+  "api_authentication": "verified"
+}

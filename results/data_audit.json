@@ -1,0 +1,24 @@
+{
+  "images": 1204,
+  "columns": 273,
+  "san_antonio_bbox_images": 0,
+  "missing_coordinates": 4,
+  "human_flood_labels": 0,
+  "localities": {
+    "West Houston / Addicks and Barker": 500,
+    "Richmond / Rosenberg / Brazos": 330,
+    "Forest Cove / Kingwood": 170,
+    "Bevil Oaks / Pine Island Bayou": 50,
+    "Simonton / Brazos": 50,
+    "Bear Creek / west Houston": 20,
+    "Kingwood / northeast Houston": 16,
+    "Eldridge / northwest Houston": 14,
+    "Center Point / Guadalupe River": 13,
+    "Ingram / Guadalupe River": 11,
+    "Kerrville / Guadalupe River": 11,
+    "Hunt / Guadalupe River": 10,
+    "Comfort / Guadalupe River": 5,
+    "Near Kerrville, Texas, United States": 4
+  },
+  "sqlite_available": false
+}

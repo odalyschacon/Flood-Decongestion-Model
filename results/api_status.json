@@ -1,0 +1,8 @@
+{
+  "status": "live_api_inference_completed",
+  "base_url": "http://10.246.100.230/v1",
+  "model": "qwen3-vl-8b-instruct",
+  "pairs_completed": 3,
+  "earth2_used": false,
+  "execution": "Laptop client calling user-specified API; no local GPU setup"
+}

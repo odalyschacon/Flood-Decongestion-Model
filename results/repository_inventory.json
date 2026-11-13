@@ -1,0 +1,625 @@
+[
+  {
+    "path": ".ipynb_checkpoints\\1_Introduction_to_Vision_Prompting-checkpoint.ipynb",
+    "bytes": 1167150,
+    "sha256": "6129c666c0dd0abe964a10ecf4d1739a2021268f3d7d88246b76c963815c32d8",
+    "kind": "notebook",
+    "cells": 16,
+    "code_cells": 10
+  },
+  {
+    "path": ".ipynb_checkpoints\\2_Basic_Vision_Prompt_Structure-checkpoint.ipynb",
+    "bytes": 1707211,
+    "sha256": "a2f10916974145de9781b1e39aa0499746cdf62431818a0a45a467b4972f6493",
+    "kind": "notebook",
+    "cells": 17,
+    "code_cells": 11
+  },
+  {
+    "path": ".ipynb_checkpoints\\vlm_config-checkpoint.py",
+    "bytes": 200,
+    "sha256": "0b9516f4c35dcecb55745c941efe0d71f036cce82aa803d7d4c4144e99f45727",
+    "syntax": "valid"
+  },
+  {
+    "path": "01_Image_Question_Answering.ipynb",
+    "bytes": 430990,
+    "sha256": "53bb858bd713890dc13b583691a6f70f1391b9351b54c5dc61df017ccd9b32c5",
+    "kind": "notebook",
+    "cells": 7,
+    "code_cells": 3
+  },
+  {
+    "path": "02_Text_to_Image_Retrieval.ipynb",
+    "bytes": 4764949,
+    "sha256": "c7e2c5da41aea59c5b35c7d6a0cbc2fad5d874922c95d6ce01e598a18f72974f",
+    "kind": "notebook",
+    "cells": 15,
+    "code_cells": 7
+  },
+  {
+    "path": "03_Before_After_Change_and_Weather.ipynb",
+    "bytes": 1085619,
+    "sha256": "b2538449e124b8fcd65a7c399c9a6a9a599ac5704bc5c7d72e8fe2fb885e28df",
+    "kind": "notebook",
+    "cells": 9,
+    "code_cells": 4
+  },
+  {
+    "path": "1_Introduction_to_Vision_Prompting.ipynb",
+    "bytes": 1166647,
+    "sha256": "051aa7e92f1e31a8d0eeb54ba432199cdd65a339f150eb78308d7d848fd7bf0f",
+    "kind": "notebook",
+    "cells": 16,
+    "code_cells": 10
+  },
+  {
+    "path": "2_Basic_Vision_Prompt_Structure.ipynb",
+    "bytes": 1707211,
+    "sha256": "a2f10916974145de9781b1e39aa0499746cdf62431818a0a45a467b4972f6493",
+    "kind": "notebook",
+    "cells": 17,
+    "code_cells": 11
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\birds-ex.jpg",
+    "bytes": 484490,
+    "sha256": "a6f0fe34972ddd2fee5d1efa4cc06db42a0ae13c3a93c451d27fb2191164a320",
+    "kind": "image",
+    "size": [
+      3000,
+      4000
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\birds-up-1.jpg",
+    "bytes": 446043,
+    "sha256": "4feb716d9cee6c69cca94bd35750e18d6f4a905ace53af39bc4ab181c6339ebf",
+    "kind": "image",
+    "size": [
+      3000,
+      4000
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\birds-up-2.jpeg",
+    "bytes": 5473,
+    "sha256": "0548e43c6ecf22bb440b104beb81386f00120be327ae93aa326249ded776d390",
+    "kind": "image",
+    "size": [
+      225,
+      225
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\horns-1.jpeg",
+    "bytes": 3929,
+    "sha256": "5402ffc602231dd33c52c44bea45001ec4fc01e1762aa11dc6c9b3788fdd2130",
+    "kind": "image",
+    "size": [
+      224,
+      225
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\horns-2.jpg",
+    "bytes": 438812,
+    "sha256": "8d492560204446967515456cf6673bb86c1d0083683ae10200281fbf6863b5c7",
+    "kind": "image",
+    "size": [
+      3000,
+      4000
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\birds-vs-horns\\horns-ex.jpg",
+    "bytes": 402184,
+    "sha256": "71d209150f9e222dcdd24e478a28446227be3d486576a5f320170fd269f8a600",
+    "kind": "image",
+    "size": [
+      3000,
+      4000
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\demo-images\\nutrition-facts.jpg",
+    "bytes": 100583,
+    "sha256": "75890da3a25490c6e729e37350b335e0c65188d0bc3a723a0e527ec0d3bfa1f0",
+    "kind": "image",
+    "size": [
+      624,
+      624
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\demo-images\\sa-park.jpeg",
+    "bytes": 249180,
+    "sha256": "ea711f8809cb9f9160ed7b919b41b33d0537ca73ba6582b3e4e396c021c64ef9",
+    "kind": "image",
+    "size": [
+      1024,
+      768
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\graphs\\.ipynb_checkpoints\\interest-rates-checkpoint.png",
+    "bytes": 132819,
+    "sha256": "31710c24e0e1f2daeddd3d7333097233cba04606beefcee93e2be54f2e76e42a",
+    "kind": "image",
+    "size": [
+      2560,
+      1357
+    ],
+    "mode": "P"
+  },
+  {
+    "path": "datasets\\graphs\\interest-rates.png",
+    "bytes": 132819,
+    "sha256": "31710c24e0e1f2daeddd3d7333097233cba04606beefcee93e2be54f2e76e42a",
+    "kind": "image",
+    "size": [
+      2560,
+      1357
+    ],
+    "mode": "P"
+  },
+  {
+    "path": "datasets\\graphs\\polio.jpeg",
+    "bytes": 332351,
+    "sha256": "e01649861790386c0b35e52f18ad4aa03316cf4bc6e4f416ecf484284daeeef2",
+    "kind": "image",
+    "size": [
+      1620,
+      1620
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\intro\\alamo-black-white.jpg",
+    "bytes": 176218,
+    "sha256": "fb763e0f9408fe0a300e7c7570acb2b7bb00c16f33ceae8701999c9336788c00",
+    "kind": "image",
+    "size": [
+      900,
+      602
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\intro\\alamo-color.jpg",
+    "bytes": 11580549,
+    "sha256": "db0528a405c1daf190e23284c43e0b454c180e61ec083f97e755e6e139b2a73e",
+    "kind": "image",
+    "size": [
+      9214,
+      4157
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\questions\\food_truck.jpeg",
+    "bytes": 115683,
+    "sha256": "6b1e21568e03ee8dfd6da4301cd8d1092c4f79609836465349ddf73ef4ee9ce4",
+    "kind": "image",
+    "size": [
+      880,
+      542
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\receipts\\receipt-1.jpeg",
+    "bytes": 556819,
+    "sha256": "b1d422de46af1647af159959a822eba41d86d7f93d10add7eb38df29c247686c",
+    "kind": "image",
+    "size": [
+      640,
+      1138
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\receipts\\receipt-2.jpeg",
+    "bytes": 270662,
+    "sha256": "3d20f95940d4fadb73e1656d5b92b3654fe26cac0bd68dc4cf1316d8e6063c01",
+    "kind": "image",
+    "size": [
+      640,
+      850
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\annotations-checkpoint.csv",
+    "bytes": 486,
+    "sha256": "a9eca841e734f3e7d3e26fe863eb56e07a81d8a531996d9b8c4407643be2eb93"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\ex_normal-checkpoint.jpg",
+    "bytes": 663060,
+    "sha256": "589007dc382e9d48bdab75d5a2bdd35cea88527c58d328083f07509a5564039d",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00000459-checkpoint.jpg",
+    "bytes": 486683,
+    "sha256": "d87ec7066d19a61860f2ee0c57c756ee18e73c71c03f3c423d971327c5200675",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00000516-checkpoint.jpg",
+    "bytes": 329122,
+    "sha256": "9e620ba1564d00ddcda9f7654c3733ad81c03f9143eec7200bf4e62133c266a1",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00002854-checkpoint.jpg",
+    "bytes": 526559,
+    "sha256": "4210899a36e190fef7300a2f2068b88f381a556022571edae3f36ee2afc86cf4",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00004516-checkpoint.jpg",
+    "bytes": 375158,
+    "sha256": "a5b6da5aae2cb4d82b8da09ee7afabaa93d5974904465be40ea219121e56a1e2",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00005141-checkpoint.jpg",
+    "bytes": 405812,
+    "sha256": "8b0d9dd949cd908ae5a9751cfe69622debcf9b4903fc5ef22c7bc6acc259c0f4",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\.ipynb_checkpoints\\VizWiz_val_00007686-checkpoint.jpg",
+    "bytes": 369740,
+    "sha256": "12900a382fb0298619ad8299a70d17dc98909edf843e064746aaebb21bf07320",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\annotations.csv",
+    "bytes": 486,
+    "sha256": "8d72b249ddf66812f09f2beb1218ce240a4028e1f91b6579dec4181e940ef3a7"
+  },
+  {
+    "path": "datasets\\viz-wiz\\ex_blur.jpg",
+    "bytes": 47898,
+    "sha256": "0fc603fb6c625d9aea87b5ccc0ed87995ff9747d60a1953d3de5afe4d0c1bab0",
+    "kind": "image",
+    "size": [
+      360,
+      480
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\ex_frame.jpg",
+    "bytes": 66009,
+    "sha256": "9990833127b0cb9a49bf42a90b596c341240f0431fec9cee846ca788cab61f56",
+    "kind": "image",
+    "size": [
+      360,
+      480
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\ex_normal.jpg",
+    "bytes": 663060,
+    "sha256": "589007dc382e9d48bdab75d5a2bdd35cea88527c58d328083f07509a5564039d",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00000459.jpg",
+    "bytes": 486683,
+    "sha256": "d87ec7066d19a61860f2ee0c57c756ee18e73c71c03f3c423d971327c5200675",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00000516.jpg",
+    "bytes": 329122,
+    "sha256": "9e620ba1564d00ddcda9f7654c3733ad81c03f9143eec7200bf4e62133c266a1",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00001285.jpg",
+    "bytes": 281483,
+    "sha256": "a0947c977e7d9f4cb63c777e828ebb494ebca07c99cc87ead776dca2d6a46b3c",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00001607.jpg",
+    "bytes": 263623,
+    "sha256": "b2d775ceb278ae4941b2c3cd755f027e2a9e8385669dbe93333306669451ed63",
+    "kind": "image",
+    "size": [
+      768,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00002854.jpg",
+    "bytes": 526559,
+    "sha256": "4210899a36e190fef7300a2f2068b88f381a556022571edae3f36ee2afc86cf4",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00003112.jpg",
+    "bytes": 221149,
+    "sha256": "7ed3d8bbb23c1d68f05c344b3fb23b5197ea42f3c32381a96fb5c66f5f12b328",
+    "kind": "image",
+    "size": [
+      768,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00004516.jpg",
+    "bytes": 375158,
+    "sha256": "a5b6da5aae2cb4d82b8da09ee7afabaa93d5974904465be40ea219121e56a1e2",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00005141.jpg",
+    "bytes": 405812,
+    "sha256": "8b0d9dd949cd908ae5a9751cfe69622debcf9b4903fc5ef22c7bc6acc259c0f4",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00005789.jpg",
+    "bytes": 336446,
+    "sha256": "33872186fff680254dfd5a87e81394ffd7cc427ae2ee416bcb49f159b7c9bce4",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00006140.jpg",
+    "bytes": 228173,
+    "sha256": "b6b6c1d1b65172ed544e7fc32da17319d36c2223c15c3477e7643957bd28e661",
+    "kind": "image",
+    "size": [
+      768,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00006553.jpg",
+    "bytes": 656664,
+    "sha256": "5e95f7b94ba44203385f4b242a4f21135f54e3cb23c4e162d2053abd76fe7c27",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00006564.jpg",
+    "bytes": 469477,
+    "sha256": "729b0f26fa36d66b8092a1b38e060fdfddf9c86fb63702f61623043786046e4d",
+    "kind": "image",
+    "size": [
+      1224,
+      1632
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00006737.jpg",
+    "bytes": 365924,
+    "sha256": "664d7c37ba014448001a239b3cf86b61a170cbab1b5e7b1e3b74a1aea54354b9",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00007258.jpg",
+    "bytes": 190621,
+    "sha256": "3ec65b0f3b676e1af1a597d60fb6b9d05a8959f8fde7d0de0ea52e8859664eb2",
+    "kind": "image",
+    "size": [
+      768,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00007597.jpg",
+    "bytes": 409574,
+    "sha256": "5f95209bd106313b4a4351c74265cc58e6574cd51ba9b240b79c6d4115efb824",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\viz-wiz\\VizWiz_val_00007686.jpg",
+    "bytes": 369740,
+    "sha256": "12900a382fb0298619ad8299a70d17dc98909edf843e064746aaebb21bf07320",
+    "kind": "image",
+    "size": [
+      968,
+      1296
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "datasets\\vizwiz.jpg",
+    "bytes": 226858,
+    "sha256": "d7f1772d81ea132c2afda3f9a0eae2af7b2c1bfd454706668a22c6f48c641e13",
+    "kind": "image",
+    "size": [
+      2048,
+      580
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "gb10-hackathon-primer-v4.html",
+    "bytes": 31598,
+    "sha256": "f6b4c5d8db7f779bfe143bf836df6f4351a2cca8e522353e2f16c84a201f7c66"
+  },
+  {
+    "path": "image_embeddings.py",
+    "bytes": 1685,
+    "sha256": "4defa4a527317767867a5ec7aa9d79e6961a343b915053c4cd6fcb5d5264f3c6",
+    "syntax": "valid"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 35823,
+    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  },
+  {
+    "path": "package_inventory.json",
+    "bytes": 1520,
+    "sha256": "251d9e5fb84ae7b71fb9120127b0c8bca932e9ba8eb9cc89bafaef17334c7a48"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8966,
+    "sha256": "fa7f7434b26b5e45b8cbd7bbe0f7ffd39fc4a36a38ab130d19700bc33348ee18"
+  },
+  {
+    "path": "requirements-embeddings.txt",
+    "bytes": 151,
+    "sha256": "ade9e2d94641cf300ba27f92987e707b9a9b6261813fd66e8e2d2f5b5470f16c"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 104,
+    "sha256": "22287d6f31eea9294371e79366caf1fe1b026a98c492834cb9fc0002d6abd1ad"
+  },
+  {
+    "path": "texas_flood.py",
+    "bytes": 7543,
+    "sha256": "367d580fbfdaa13c16556e819430e3eacc3d05f5f0b874d49b4b9b5d4ad5c3f5",
+    "syntax": "valid"
+  },
+  {
+    "path": "unsloth_test1.py",
+    "bytes": 2320,
+    "sha256": "ccdab15208abe1c49cd98b1bb703d09b138793490d0ef058ef8900ee07cb9db1",
+    "syntax": "invalid syntax. Maybe you meant '==' or ':=' instead of '='? at line 12"
+  },
+  {
+    "path": "utils.py",
+    "bytes": 1713,
+    "sha256": "396aa0cfc524c599c64d58bc020e3ea2265b236418a6ffb8673b648dad09f7a9",
+    "syntax": "valid"
+  },
+  {
+    "path": "UTSA_more_data.md",
+    "bytes": 7000,
+    "sha256": "8dde94f47fc89c4b702a15e704efcf093325bbfde923c6650e48792601983df3"
+  },
+  {
+    "path": "UTSAworkbook.ipynb",
+    "bytes": 10234,
+    "sha256": "a3b51eb1b3ff41376600d4b4c3198717d5ca4861af91ff0ca582c48eebd492e1",
+    "kind": "notebook",
+    "cells": 9,
+    "code_cells": 3
+  },
+  {
+    "path": "validation.json",
+    "bytes": 1664,
+    "sha256": "d3f08f9b5c2da36646923a71d4c376b011ec2a1cfce560f5d9c33771aafb378c"
+  },
+  {
+    "path": "vlm_config.py",
+    "bytes": 200,
+    "sha256": "0b9516f4c35dcecb55745c941efe0d71f036cce82aa803d7d4c4144e99f45727",
+    "syntax": "valid"
+  }
+]

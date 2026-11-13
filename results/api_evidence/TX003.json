@@ -1,0 +1,44 @@
+{
+  "status": "live_api_inference_completed",
+  "human_reviewed": false,
+  "pair": "TX003",
+  "image_ids": [
+    "TX003_2016_NAIP",
+    "TX003_2017_NOAA"
+  ],
+  "image_sha256": [
+    "b0868cdde0a6cb87ce4e45e05fc4ce1b9200ea1f1a30610ffd3cd96f61539597",
+    "015326ed0fe6529afb99dc48c4fd1e99c98b4c67a649573db94a081b9705596d"
+  ],
+  "locality": "Bear Creek / west Houston",
+  "dates": [
+    "2016-09-28",
+    "2017-08-30"
+  ],
+  "base_url": "http://10.246.100.230/v1",
+  "model_requested": "qwen3-vl-8b-instruct",
+  "model_returned": "qwen3-vl-8b-instruct",
+  "request_id": "chatcmpl-c39606ae-0df9-4da7-a0b3-538fbe20e9ea",
+  "completed_utc": "2026-11-13T19:15:31.662081+00:00",
+  "prompt": "Compare image A (first, baseline) and image B (second, response).\nDescribe two concrete visible changes involving water, roads, vegetation or buildings,\nthen state one important uncertainty. If flooding is unclear, say so. Ordinary water\nin a channel alone is not evidence of flooding. Do not infer flood depth, damage costs,\nthe number of homes protected, or suitable construction locations. These images show\nthe Houston area, NOT San Antonio. Keep the answer under 170 words. Do not give engineering advice.",
+  "answer": "Image B shows extensive muddy water covering areas not visible in Image A, including regions where vegetation and a road were previously exposed. The water appears to have inundated the forest floor and partially submerged the road, which is now obscured by sediment.\n\nUncertainty: It is unclear whether the water is from a natural stream overflow or a flood event, as no man-made structures or clear water channels are visible to confirm a flood source or extent. The images do not show buildings or infrastructure to assess impact.",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2183,
+    "total_tokens": 2283,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 112,
+      "image_tokens": null,
+      "text_tokens": null,
+      "multimodal_tokens": {
+        "image": 2048
+      }
+    }
+  },
+  "image_preprocessing": "RGB JPEG, max side 1024 px, quality 90",
+  "limitations": "Unreviewed model evidence, not ground-truth labels or hydraulic predictions."
+}

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50270948654732,
+          29.392965998154974
+        ]
+      },
+      "properties": {
+        "rank": 1,
+        "cell": 171984,
+        "row": 429,
+        "col": 384,
+        "upstream_area_within_crop_m2": 37277066.32527448,
+        "terrain_elevation_m": 175.7219085693,
+        "slope_degrees": 3.201806931,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 548252.043824521,
+        "northing_m": 3251626.9319786676,
+        "longitude": -98.5027094865,
+        "latitude": 29.3929659982,
+        "nearest_StormInlets_m": 133.4053030058,
+        "nearest_LowWaterCrossings_m": 6859.8043005835
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50267986875213,
+          29.399053742743764
+        ]
+      },
+      "properties": {
+        "rank": 2,
+        "cell": 156384,
+        "row": 390,
+        "col": 384,
+        "upstream_area_within_crop_m2": 36725833.745724216,
+        "terrain_elevation_m": 177.8538818359,
+        "slope_degrees": 1.7760828177,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 548252.043824521,
+        "northing_m": 3252301.4673487954,
+        "longitude": -98.5026798688,
+        "latitude": 29.3990537427,
+        "nearest_StormInlets_m": 53.404534016,
+        "nearest_LowWaterCrossings_m": 6205.0775409359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50619107361683,
+          29.399847291687706
+        ]
+      },
+      "properties": {
+        "rank": 3,
+        "cell": 154364,
+        "row": 385,
+        "col": 364,
+        "upstream_area_within_crop_m2": 36346547.9793777,
+        "terrain_elevation_m": 179.2627563477,
+        "slope_degrees": 3.923249583,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547910.9958679698,
+        "northing_m": 3252387.946242402,
+        "longitude": -98.5061910736,
+        "latitude": 29.3998472917,
+        "nearest_StormInlets_m": 108.3792153189,
+        "nearest_LowWaterCrossings_m": 6043.0124111994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50723052170409,
+          29.40297311431169
+        ]
+      },
+      "properties": {
+        "rank": 4,
+        "cell": 146358,
+        "row": 365,
+        "col": 358,
+        "upstream_area_within_crop_m2": 36126231.90825728,
+        "terrain_elevation_m": 179.7015533447,
+        "slope_degrees": 2.9994309827,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547808.6814810045,
+        "northing_m": 3252733.8618168263,
+        "longitude": -98.5072305217,
+        "latitude": 29.4029731143,
+        "nearest_StormInlets_m": 153.6397997362,
+        "nearest_LowWaterCrossings_m": 5683.5998831621
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.51038664419404,
+          29.4045457340033
+        ]
+      },
+      "properties": {
+        "rank": 5,
+        "cell": 142340,
+        "row": 355,
+        "col": 340,
+        "upstream_area_within_crop_m2": 35077444.82806426,
+        "terrain_elevation_m": 181.1995391846,
+        "slope_degrees": 0.4155769733,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547501.7383201084,
+        "northing_m": 3252906.8196040387,
+        "longitude": -98.5103866442,
+        "latitude": 29.404545734,
+        "nearest_StormInlets_m": 75.5811196756,
+        "nearest_LowWaterCrossings_m": 5459.7731537906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.51019517203424,
+          29.40782310320395
+        ]
+      },
+      "properties": {
+        "rank": 6,
+        "cell": 133941,
+        "row": 334,
+        "col": 341,
+        "upstream_area_within_crop_m2": 32973971.977688387,
+        "terrain_elevation_m": 183.0014801025,
+        "slope_degrees": 3.6124936631,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547518.7907179359,
+        "northing_m": 3253270.0309571843,
+        "longitude": -98.510195172,
+        "latitude": 29.4078231032,
+        "nearest_StormInlets_m": 137.2422021661,
+        "nearest_LowWaterCrossings_m": 5103.728969053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5091255878952,
+          29.410941139950584
+        ]
+      },
+      "properties": {
+        "rank": 7,
+        "cell": 125947,
+        "row": 314,
+        "col": 347,
+        "upstream_area_within_crop_m2": 32157298.348595448,
+        "terrain_elevation_m": 183.5029449463,
+        "slope_degrees": 2.9723333145,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547621.1051049012,
+        "northing_m": 3253615.946531609,
+        "longitude": -98.5091255879,
+        "latitude": 29.41094114,
+        "nearest_StormInlets_m": 63.4520715059,
+        "nearest_LowWaterCrossings_m": 4781.8461444907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5115744177197,
+          29.41344771572172
+        ]
+      },
+      "properties": {
+        "rank": 8,
+        "cell": 119533,
+        "row": 298,
+        "col": 333,
+        "upstream_area_within_crop_m2": 19514636.093377784,
+        "terrain_elevation_m": 185.9777069092,
+        "slope_degrees": 4.1911422968,
+        "status": "terrain screening only; site feasibility unknown",
+        "easting_m": 547382.3715353154,
+        "northing_m": 3253892.6789911487,
+        "longitude": -98.5115744177,
+        "latitude": 29.4134477157,
+        "nearest_StormInlets_m": 167.1405122313,
+        "nearest_LowWaterCrossings_m": 4467.2631996801
+      }
+    }
+  ]
+}

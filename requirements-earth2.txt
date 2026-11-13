@@ -1,0 +1,4 @@
+# Optional: install on a compatible NVIDIA Linux / GB10 environment, not required locally.
+# Confirm the device's PyTorch/CUDA compatibility before installing these extras.
+earth2studio[fcn,precip-afno]==0.18.0
+pandas>=2,<4

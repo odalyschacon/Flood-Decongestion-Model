@@ -1,0 +1,44 @@
+{
+  "status": "live_api_inference_completed",
+  "human_reviewed": false,
+  "pair": "TX001",
+  "image_ids": [
+    "TX001_2016_NAIP",
+    "TX001_2017_NOAA"
+  ],
+  "image_sha256": [
+    "006757dadab912500fa12fd396dc05838e8c0c1650cb0bcd3e365f6fd76d64ed",
+    "6d6acff4ef20f275ca3503cc587ce04f0d2d6741644dcee17cea24f8785dd1ad"
+  ],
+  "locality": "Bear Creek / west Houston",
+  "dates": [
+    "2016-09-28",
+    "2017-08-30"
+  ],
+  "base_url": "http://10.246.100.230/v1",
+  "model_requested": "qwen3-vl-8b-instruct",
+  "model_returned": "qwen3-vl-8b-instruct",
+  "request_id": "chatcmpl-8c6d4095-cce6-4bd5-8f9f-b9b5fcea5909",
+  "completed_utc": "2026-11-13T19:15:27.632588+00:00",
+  "prompt": "Compare image A (first, baseline) and image B (second, response).\nDescribe two concrete visible changes involving water, roads, vegetation or buildings,\nthen state one important uncertainty. If flooding is unclear, say so. Ordinary water\nin a channel alone is not evidence of flooding. Do not infer flood depth, damage costs,\nthe number of homes protected, or suitable construction locations. These images show\nthe Houston area, NOT San Antonio. Keep the answer under 170 words. Do not give engineering advice.",
+  "answer": "Image B shows widespread water covering streets and yards, submerging roads and surrounding vegetation. In Image A, these areas are dry. \n\nOne important uncertainty: it is unclear whether the water in Image B is from a natural flood or a man-made source like a canal or reservoir. The water appears to be flowing through residential areas, but its origin and cause cannot be determined from the images alone.",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 2183,
+    "total_tokens": 2264,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "multimodal_tokens": {
+        "image": 2048
+      }
+    }
+  },
+  "image_preprocessing": "RGB JPEG, max side 1024 px, quality 90",
+  "limitations": "Unreviewed model evidence, not ground-truth labels or hydraulic predictions."
+}

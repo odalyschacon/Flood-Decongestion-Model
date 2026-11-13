@@ -1,0 +1,44 @@
+{
+  "status": "live_api_inference_completed",
+  "human_reviewed": false,
+  "pair": "TX002",
+  "image_ids": [
+    "TX002_2016_NAIP",
+    "TX002_2017_NOAA"
+  ],
+  "image_sha256": [
+    "428e5a77ce516c41ad3026b63ae01907b531ce5c1da58f727bf80783c74adb88",
+    "4488a5ef002535d46024e41e8898feb2650b59c9fb58d781cac5714411bf75d5"
+  ],
+  "locality": "Bear Creek / west Houston",
+  "dates": [
+    "2016-09-28",
+    "2017-08-30"
+  ],
+  "base_url": "http://10.246.100.230/v1",
+  "model_requested": "qwen3-vl-8b-instruct",
+  "model_returned": "qwen3-vl-8b-instruct",
+  "request_id": "chatcmpl-db65f8c4-3513-4ca9-a463-ccfd0fddd64b",
+  "completed_utc": "2026-11-13T19:15:29.425692+00:00",
+  "prompt": "Compare image A (first, baseline) and image B (second, response).\nDescribe two concrete visible changes involving water, roads, vegetation or buildings,\nthen state one important uncertainty. If flooding is unclear, say so. Ordinary water\nin a channel alone is not evidence of flooding. Do not infer flood depth, damage costs,\nthe number of homes protected, or suitable construction locations. These images show\nthe Houston area, NOT San Antonio. Keep the answer under 170 words. Do not give engineering advice.",
+  "answer": "Image B shows widespread brown water covering streets and yards, submerging roads and surrounding vegetation. In Image A, these areas are dry. The water in Image B appears to have inundated multiple residential blocks, obscuring driveways and sidewalks.\n\nUncertainty: It is unclear whether the water is from a single event or multiple events, and whether the water level is rising or receding. The images do not show water depth, damage, or the number of homes affected. The water is not confined to channels; it spreads across residential lots and streets. The images show the Houston area, not San Antonio.",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 2183,
+    "total_tokens": 2306,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 112,
+      "image_tokens": null,
+      "text_tokens": null,
+      "multimodal_tokens": {
+        "image": 2048
+      }
+    }
+  },
+  "image_preprocessing": "RGB JPEG, max side 1024 px, quality 90",
+  "limitations": "Unreviewed model evidence, not ground-truth labels or hydraulic predictions."
+}

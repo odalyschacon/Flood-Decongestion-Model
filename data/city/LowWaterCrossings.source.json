@@ -1,0 +1,14 @@
+{
+  "service": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/LowWaterCrossings/FeatureServer/0",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "features": 2,
+  "retrieved_utc": "2026-11-13T18:32:44.779331+00:00",
+  "copyright": "City of San Antonio Transportation & Capital Improvements Department (TCI), City of San Antonio GIS City Infrastructure, City of San Antonio Information Technology Services Department (ITSD)",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN STYLE=\"font-size:12pt\">This is a graphical point dataset depicting the Low Water Crossings that are within the boundaries of the Federal Emergency Management Agency's (FEMA) Digital Flood Insurance Rate Map (DFIRM) floodplain area in Bexar County, Texas.</SPAN></P></DIV></DIV></DIV>",
+  "sha256": "abc5b72e8f4043ebdf158e77a87c25d8c5a2e9167936243e06acc1e7cb258828"
+}

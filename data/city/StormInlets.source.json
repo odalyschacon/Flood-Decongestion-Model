@@ -1,0 +1,14 @@
+{
+  "service": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/StormInlets/FeatureServer/0",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "features": 3563,
+  "retrieved_utc": "2026-11-13T18:32:11.734685+00:00",
+  "copyright": "City of San Antonio Transportation and Capital Improvements Department, Information Technology Services GIS Division",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>This is a geographical point dataset depicting the Inlet location and infrastructure within San Antonio, Texas.</span></p></div></div></div>",
+  "sha256": "8f6b5a09f727189ad505d5c6a0b116e8465970466984024abe01ba573290c782"
+}

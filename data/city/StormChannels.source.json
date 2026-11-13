@@ -1,0 +1,14 @@
+{
+  "service": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/StormChannels/FeatureServer/0",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "features": 201,
+  "retrieved_utc": "2026-11-13T18:32:43.215248+00:00",
+  "copyright": "",
+  "description": "",
+  "sha256": "93ee62ce061dede49d24fdd8733839ed66f445f8575e79b61cb5611600e17b42"
+}

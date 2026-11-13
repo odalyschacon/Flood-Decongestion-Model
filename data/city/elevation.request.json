@@ -1,0 +1,19 @@
+{
+  "request_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?f=json&bbox=-98.57%2C29.39%2C-98.5%2C29.46&bboxSR=4326&imageSR=32614&size=400%2C450&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false",
+  "response": {
+    "href": "https://elevation.nationalmap.gov/arcgis/rest/directories/elevation_output/3DEPElevation_ImageServer/_ags_936e1205_d08b_44a9_9a12_dbbf0257841a.tif",
+    "width": 400,
+    "height": 450,
+    "extent": {
+      "xmin": -98.57,
+      "ymin": 29.39,
+      "xmax": -98.5,
+      "ymax": 29.46,
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      }
+    },
+    "scale": 0
+  }
+}

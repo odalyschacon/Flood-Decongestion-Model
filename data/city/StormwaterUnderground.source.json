@@ -1,0 +1,14 @@
+{
+  "service": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/StormwaterUnderground/FeatureServer/0",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "features": 5677,
+  "retrieved_utc": "2026-11-13T18:32:40.992738+00:00",
+  "copyright": "City of San Antonio Transportation and Capitol Improvements Department - Storm Water",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>This is a geographical polyline dataset depicting the drainage systems and infrastructure within San Antonio, Texas.</SPAN></P></DIV></DIV></DIV>",
+  "sha256": "2b0210dbd1d3c81f60a1da58b229a305a4da133f6fbc9bfa43776f893418abe7"
+}

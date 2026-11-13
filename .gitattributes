@@ -1,0 +1,2 @@
+# Keep downloaded inputs byte-identical to their recorded SHA-256 checksums.
+data/** -text

@@ -1,0 +1,21 @@
+{
+  "service": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/Draft_Floodplain/FeatureServer/1",
+  "fields_requested": "*",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "retrieved_utc": "2026-11-13T19:38:29.243768+00:00",
+  "features": 497,
+  "sha256": "40326343177c95a8abdaf2e92ea264bef901fabf9d4a909305245720f068a477",
+  "note": "San Antonio River Authority Upper San Antonio DRAFT floodplain. Not the effective FEMA regulatory map; subject to revision.",
+  "description": "2022/23 draft floodplain layer of the Upper San Antonio River Authority for the public usage of the \"Draft Floodplain Viewer\" Application. Data was provided by the Engineering Department.The Layer is symbolized by the field, \"ZONE_SUBTY\" showing the following: \u2022 \"1% Annual Chance Flood Hazard\" = blank and null values\u2022 \"Future Conditions 1% Annual Chance Flood Hazard\" = 0300\u2022 \"0.2% Annual Chance Flood Hazard\" = 0500\u2022 \"Regulatory Floodway\" = 1100Source data: Database Connections\\OS@gisAncillary@gissql.sde\\gisAncillary.DBO.AppData\\Published in Feb 2023 by the GIS Team to update the symbology. Published to ArcGIS Online Cloud",
+  "copyright": "San Antonio River Authority",
+  "editingInfo": {
+    "lastEditDate": 1778533964337,
+    "schemaLastEditDate": 1778533959524,
+    "dataLastEditDate": 1768937991926
+  }
+}

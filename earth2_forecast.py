@@ -1,6 +1,6 @@
 """Optional GPU runner, based on NVIDIA Earth2Studio 0.18.0 diagnostic workflow.
 
-This script is prepared but NOT live-validated in the laptop environment.
+Live-validated on NVIDIA GB10 with CUDA 13; not intended for the Intel laptop.
 Reference: https://nvidia.github.io/earth2studio/0.18.0/examples/01_getting_started/02_diagnostic_workflow/
 """
 import argparse
@@ -14,6 +14,7 @@ def main():
     parser.add_argument('--initial-time',required=True,help='Available GFS initialization, YYYY-MM-DDTHH:00:00Z')
     parser.add_argument('--steps',type=int,default=4,help='Six-hour steps, default 24-hour forecast')
     parser.add_argument('--output',default='data/earth2_rainfall.csv')
+    parser.add_argument('--model-directory',type=Path,help='Optional directory of preloaded official fcn/ and precip/ packages')
     args=parser.parse_args()
     t=datetime.fromisoformat(args.initial_time.replace('Z','+00:00'))
     if t.tzinfo is None: raise ValueError('Initialization must include UTC timezone')
@@ -31,13 +32,17 @@ def main():
     from earth2studio.io import ZarrBackend
     from earth2studio.models.px import FCN
     from earth2studio.models.dx import PrecipitationAFNO
+    from earth2studio.models.auto import Package
     from collections import OrderedDict
     from floodlab import read_rainfall_csv
 
     # The nearest 0.25-degree grid point to the pilot center, not neighborhood resolution.
     lat,lon=29.5,261.5
-    prognostic=FCN.load_model(FCN.load_default_package())
-    diagnostic=PrecipitationAFNO.load_model(PrecipitationAFNO.load_default_package())
+    print('Loading FourCastNet weights',flush=True)
+    prognostic=FCN.load_model(Package(str(args.model_directory/'fcn')) if args.model_directory else FCN.load_default_package())
+    print('Loading PrecipitationAFNO weights',flush=True)
+    diagnostic=PrecipitationAFNO.load_model(Package(str(args.model_directory/'precip')) if args.model_directory else PrecipitationAFNO.load_default_package())
+    print('Starting GFS initialization and GPU inference',flush=True)
     io=run.diagnostic([t.replace(tzinfo=None).isoformat()],args.steps,prognostic,diagnostic,
                       GFS(),ZarrBackend(),
                       output_coords=OrderedDict(lat=np.array([lat]),lon=np.array([lon])),
@@ -62,6 +67,9 @@ def main():
         'initial_time_utc':t.isoformat(),'gpu':torch.cuda.get_device_name(0),
         'grid_degrees':.25,'rainfall_units':'mm per six-hour interval',
         'initial_conditions':'GFS','status':'live model inference completed',
+        'torch_version':torch.__version__,'cuda_version':torch.version.cuda,
+        'generated_at_utc':datetime.now(timezone.utc).isoformat(),
+        'forecast_steps':args.steps,
         'limitations':'Coarse deterministic forecast; no local calibration or urban downscaling'
     },indent=2))
     print(target)

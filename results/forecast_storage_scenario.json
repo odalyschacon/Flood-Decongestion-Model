@@ -1,0 +1,24 @@
+{
+  "generated_runoff_m3": 120783.28055362467,
+  "stored_m3": 16000.0,
+  "boundary_outflow_m3": 104783.2805536252,
+  "captured_by_cell": {
+    "119533": 2000.0,
+    "125947": 2000.0,
+    "133941": 2000.0,
+    "142340": 2000.0,
+    "146358": 2000.0,
+    "154364": 2000.0,
+    "156384": 2000.0,
+    "171984": 2000.0
+  },
+  "mass_balance_error_m3": -5.238689482212067e-10,
+  "rainfall_sha256": "1b847fab4a1dc6148692beb294e703f142f2174424c2ac0aca74322f068278e9",
+  "rain_mm": 3.791905357822543,
+  "start_utc": "2026-11-13T12:00:00+00:00",
+  "end_utc": "2026-11-14T12:00:00+00:00",
+  "weather_model": "FCN + PrecipitationAFNO",
+  "runoff_coefficient_assumed": 0.6,
+  "capacity_per_collector_m3_assumed": 2000,
+  "limitations": "Uniform rainfall across cropped terrain; collectors assumed empty at event start. No external runoff, travel times, pipe hydraulics, flood depths, or estimates of homes protected."
+}

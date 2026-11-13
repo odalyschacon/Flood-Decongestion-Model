@@ -1,0 +1,14 @@
+{
+  "earth2studio_version": "0.18.0",
+  "initial_time_utc": "2026-11-13T12:00:00+00:00",
+  "gpu": "NVIDIA GB10",
+  "grid_degrees": 0.25,
+  "rainfall_units": "mm per six-hour interval",
+  "initial_conditions": "GFS",
+  "status": "live model inference completed",
+  "torch_version": "2.13.0+cu130",
+  "cuda_version": "13.0",
+  "generated_at_utc": "2026-11-13T20:18:43.468643+00:00",
+  "forecast_steps": 4,
+  "limitations": "Coarse deterministic forecast; no local calibration or urban downscaling"
+}

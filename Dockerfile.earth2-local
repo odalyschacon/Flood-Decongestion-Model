@@ -1,0 +1,9 @@
+# Reuse the GB10's already-cached CUDA 13 / PyTorch image in a separate image.
+FROM vllm/vllm-openai:v0.31.0
+WORKDIR /opt/floodlab
+RUN apt-get update && apt-get install -y --no-install-recommends libeccodes-tools libeccodes-dev git && rm -rf /var/lib/apt/lists/*
+COPY requirements-earth2.txt .
+RUN python3 -c "import importlib.metadata as m; print('torch=='+m.version('torch'))" > /tmp/torch-constraint.txt \
+    && python3 -m pip install --constraint /tmp/torch-constraint.txt -r requirements-earth2.txt
+COPY earth2_forecast.py floodlab.py geo.py verify_earth2_gpu.py ./
+ENTRYPOINT ["python3", "earth2_forecast.py"]

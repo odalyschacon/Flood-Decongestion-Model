@@ -1,0 +1,6 @@
+{
+  "building_ways_screened": 4568,
+  "draft_annual_overlap_buildings": 353,
+  "draft_future_overlap_buildings": 16,
+  "limitations": "Ways only, excludes multipolygon relations. Incomplete coverage. Draft polygon overlap is not predicted flood depth or a safety designation."
+}

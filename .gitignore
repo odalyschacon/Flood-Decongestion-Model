@@ -6,3 +6,6 @@ __pycache__/
 data/
 results/routing.npz
 ~$*
+.deps/
+earth2-cache/
+earth2-results/

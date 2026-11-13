@@ -1,2 +1,4 @@
 # Keep downloaded inputs byte-identical to their recorded SHA-256 checksums.
 data/** -text
+*.sh text eol=lf
+results/earth2_rainfall.csv -text

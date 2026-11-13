@@ -17,7 +17,7 @@ This project runs on your laptop and uses the supplied OpenAI-compatible API for
 - Saved actual responses, timestamps, prompts, model IDs, request IDs and image hashes in `results/api_evidence/`.
 - Built and executed the notebook, report, CSV/GeoJSON exports and calculation tests.
 
-The endpoint serves Qwen through the OpenAI Python SDK. It is not the OpenAI-hosted service. Earth-2 is **not used** in this demonstration. The optional `earth2_forecast.py` is retained for future development only and has not been live-tested.
+The endpoint serves Qwen through the OpenAI Python SDK. It is not the OpenAI-hosted service. Separately, `earth2_forecast.py` has now completed a real forecast on the NVIDIA GB10. See `GB10_SETUP.md`, the forecast section of the report, and `results/earth2_rainfall.csv`. Reproduce its local storage handoff with `python analyze_forecast.py results/earth2_rainfall.csv`.
 
 ## Refresh AI results
 

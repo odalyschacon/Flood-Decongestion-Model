@@ -1,0 +1,8 @@
+{
+  "failures": {},
+  "sources": {
+    "parcels": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+    "draft_floodplain": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/Draft_Floodplain/FeatureServer/1",
+    "aquifer": "https://gisweb.tceq.texas.gov/arcgis/rest/services/Public/EdwardsAquifer/MapServer/0"
+  }
+}

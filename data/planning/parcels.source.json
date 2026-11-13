@@ -1,0 +1,21 @@
+{
+  "service": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+  "fields_requested": "OBJECTID,PropID,state_cd,GBA_Living,legal_acre,LandSqft",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "retrieved_utc": "2026-11-13T19:38:26.049978+00:00",
+  "features": 41161,
+  "sha256": "64344c534501a5a32393a114c079cd968310e10522194e449c9a684e00b1a133",
+  "note": "BCAD parcel geometry and tax-use codes, distributed by City of San Antonio. Not building footprints or household counts.",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Basic parcel attribute information. Data provided by Bexar County Appraisal District (http://box.bcad.org/). Updated weekly.</SPAN></P></DIV></DIV></DIV>",
+  "copyright": "",
+  "editingInfo": {
+    "lastEditDate": 1794221049093,
+    "schemaLastEditDate": 1794221049093,
+    "dataLastEditDate": 1794221049093
+  }
+}

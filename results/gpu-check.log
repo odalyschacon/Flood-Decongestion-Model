@@ -1,0 +1,12 @@
+{
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "earth2studio": "0.18.0",
+  "gpu": "NVIDIA GB10",
+  "capability": [
+    12,
+    1
+  ],
+  "gpu_matrix_test": "passed",
+  "model_inference": "not tested by this script"
+}

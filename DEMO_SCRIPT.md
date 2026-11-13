@@ -16,7 +16,7 @@ Show the live AI evidence section. Qwen analyzed three provided before/after ima
 “To move from screening to construction recommendations, we need residential buildings and parcels, drainage capacities, full watersheds, and a calibrated hydraulic model. Tunnel design and safe new development cannot be determined by a vision model or terrain convergence alone.”
 
 **If asked about Earth-2**
-“Earth-2 was part of the original concept. This version uses scenario rainfall and a Qwen vision API; Earth-2 was not run. A separate forecast integration script is retained for future development.”
+“We ran NVIDIA Earth2Studio on the GB10 using FourCastNet and PrecipitationAFNO. Its 24-hour forecast produced 3.792 mm at the San Antonio grid point. We passed that rainfall into our event-volume screening. This is coarse weather guidance, not a neighborhood flood-depth prediction; the report also retains independent rainfall scenarios.”
 
 **If the network drops**
 The HTML report, cached AI results, notebook and local scenario calculations work offline. Only refreshing AI results requires the workshop network and credential.

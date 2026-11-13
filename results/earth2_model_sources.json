@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fcn/config.json",
+    "url": "https://huggingface.co/nvidia/fourcastnet1/resolve/c67a63995f6c8e0e557eb3d791f32f437e9b02d5/config.json",
+    "bytes": 22,
+    "sha256": "6da2e1dbc5ef5745eab964286c235a9f9899aa3ccdebe7d61d5c52bf1a91bd56",
+    "seconds": 2.2
+  },
+  {
+    "file": "fcn/fcn.mdlus",
+    "url": "https://huggingface.co/nvidia/fourcastnet1/resolve/c67a63995f6c8e0e557eb3d791f32f437e9b02d5/fcn.mdlus",
+    "bytes": 301168640,
+    "sha256": "995cdfdc3b64330caade5518aff09e0ce8f941b4262f3f8eb792b6fea8b6423a",
+    "seconds": 89.1
+  },
+  {
+    "file": "fcn/global_means.npy",
+    "url": "https://huggingface.co/nvidia/fourcastnet1/resolve/c67a63995f6c8e0e557eb3d791f32f437e9b02d5/global_means.npy",
+    "bytes": 336,
+    "sha256": "dd207b78084ad28387c1dc1110ac6db3bc85b25182433ce854ddb8968f219921",
+    "seconds": 2.0
+  },
+  {
+    "file": "fcn/global_stds.npy",
+    "url": "https://huggingface.co/nvidia/fourcastnet1/resolve/c67a63995f6c8e0e557eb3d791f32f437e9b02d5/global_stds.npy",
+    "bytes": 336,
+    "sha256": "d2adff90952d7980e1951e3b7688451dbb11b63eb04c1b43991e30b2d65e3dcb",
+    "seconds": 1.5
+  },
+  {
+    "file": "precip/precipitation_afno.zip",
+    "url": "https://api.ngc.nvidia.com/v2/models/nvidia/modulus/modulus_diagnostics/versions/v0.1/files/precipitation_afno.zip",
+    "bytes": 273786911,
+    "sha256": "c45a3c44bb355fa0709aa05e24ca2e549e5900c64182ace51b2f1bc87250f676",
+    "seconds": 38.5
+  }
+]

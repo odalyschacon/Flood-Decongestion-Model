@@ -166,9 +166,24 @@ def write_report(results,audit,candidates,network,layers,dx,dy):
         api_section+='<p>No successful API image analyses are cached. Run api_evidence.py to generate them.</p>'
     api_section+='</section>'
     page=page.replace('<section class="card"><h2>5. Earth-2 and construction: next integration steps</h2>',api_section+'<section class="card"><h2>5. Construction: next validation steps</h2>')
-    page=page.replace('The included optional Earth2Studio runner couples FourCastNet with PrecipitationAFNO and exports rainfall for the pilot. It requires a compatible NVIDIA environment and model downloads. The forecast grid is 0.25°, much coarser than a neighborhood. Forecast rainfall must be evaluated against local observations; applying it to fine terrain is not weather downscaling.',
-                      'The completed demonstration uses a laptop, the supplied Qwen vision API, and scenario rainfall. Earth-2 is not part of the active workflow. The optional forecast runner is retained only for future development; no weather forecast is claimed.')
-    page=page.replace('Earth-2 has not run. This model', 'AI image analysis uses the supplied API; Earth-2 is not used. This model')
+    forecast_path=results/'forecast_storage_scenario.json'
+    if forecast_path.exists():
+        forecast=json.loads(forecast_path.read_text())
+        forecast_section=('<section class="card"><h2>Completed Earth-2 forecast on NVIDIA GB10</h2>'
+            '<p>FourCastNet + PrecipitationAFNO, initialized '+html.escape(forecast['start_utc'])+
+            ', through '+html.escape(forecast['end_utc'])+'. This forecast was generated after initialization; it is not an operational warning.</p>'
+            f'<p><b>{forecast["rain_mm"]:.3f} mm</b> total rainfall at 29.5°N, 98.5°W on the 0.25° model grid. '
+            f'Assuming runoff coefficient {forecast["runoff_coefficient_assumed"]} and eight initially empty '
+            f'{forecast["capacity_per_collector_m3_assumed"]:,.0f} m³ collectors, the cropped-terrain scenario stores '
+            f'{forecast["stored_m3"]:,.0f} m³ of {forecast["generated_runoff_m3"]:,.0f} m³ generated runoff.</p>'
+            '<p>This is event-volume accounting, not a flood-depth, tunnel-performance or homes-protected prediction. '
+            'The sliders above remain independent hypothetical scenarios.</p>'
+            '<p><a href="results/earth2_rainfall.csv">Forecast CSV</a> · '
+            '<a href="results/earth2_rainfall.provenance.json">Run provenance</a> · '
+            '<a href="Planning_Map.html">Buildings and draft floodplain</a> · '
+            '<a href="SanAntonio_Planning.kmz">Google Earth export</a></p></section>')
+        page=page.replace('Earth-2 has not run.', 'A completed GB10 Earth-2 forecast is reported separately below.')
+        page=page.replace('<section class="card"><h2>5. Construction:',forecast_section+'<section class="card"><h2>5. Construction:')
     page=page.replace('MAP',data_image('pilot_map.png')).replace('PAIR',data_image('evidence_pair.png')).replace('TABLE',table).replace('NETWORK',json.dumps(network)).replace('CELL',f'{dx:.1f} × {dy:.1f}')
     (ROOT/'FloodLab_Report.html').write_text(page,encoding='utf-8')
 

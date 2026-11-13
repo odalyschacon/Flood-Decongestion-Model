@@ -6,6 +6,8 @@ A reproducible prototype for investigating stormwater collection opportunities i
 
 **Start here:** [Executed notebook](SanAntonio_Flood_Planning.ipynb) · [Presentation script](DEMO_SCRIPT.md) · [Detailed instructions](START_HERE.md)
 
+**Geographic additions:** [Building and draft-floodplain map](Planning_Map.html) · [Google Earth KMZ](SanAntonio_Planning.kmz) · [Sources and limitations](GEOGRAPHIC_DATA.md). These add 4,568 mapped OSM building footprints; overlap with SARA draft polygons is preliminary screening, not a flood-depth prediction.
+
 ![San Antonio terrain, drainage infrastructure and investigation points](results/pilot_map.png)
 
 ## What the project does
@@ -66,7 +68,7 @@ For an illustrative 50 mm event, runoff coefficient 0.60 and eight collectors wi
 
 ## Validation and limitations
 
-- All nine nonempty notebook code cells executed successfully.
+- All eleven nonempty notebook code cells executed successfully, including cached Earth-2 forecast and geographic results.
 - Four tests cover water-volume conservation, cascaded collectors, coordinate conversion and rainfall interval validation.
 - The report's 16 preset interactive scenarios were compared with Python outputs.
 - Three API image analyses completed successfully; they remain unreviewed model observations, not human labels.
@@ -77,7 +79,7 @@ For an illustrative 50 mm event, runoff coefficient 0.60 and eight collectors wi
 
 **Construction:** Building footprints, residential exposure, parcels, soils, utility conflicts and land feasibility are not yet included. Tunnel routes and new-construction suitability require those inputs and a calibrated hydraulic model such as EPA SWMM with surface-flow modeling where needed.
 
-**Earth-2:** Part of the initial concept, but not run or used in the final demo. `earth2_forecast.py` is an optional future integration, not a tested component or a requirement. Current rainfall is explicitly scenario-based.
+**Earth-2 now runs on the GB10:** Earth2Studio 0.18.0 with FourCastNet + PrecipitationAFNO completed a 24-hour forecast initialized November 13, 2026 at 12:00 UTC. It produced 3.792 mm at 29.5°N, 98.5°W. See [forecast CSV](results/earth2_rainfall.csv), [provenance](results/earth2_rainfall.provenance.json), [storage handoff](results/forecast_storage_scenario.json), and [GB10 setup](GB10_SETUP.md). The report's sliders remain hypothetical scenarios; the completed forecast has its own section. Coarse weather output is not a neighborhood flood model.
 
 ## Project structure
 

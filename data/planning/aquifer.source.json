@@ -1,0 +1,17 @@
+{
+  "service": "https://gisweb.tceq.texas.gov/arcgis/rest/services/Public/EdwardsAquifer/MapServer/0",
+  "fields_requested": "*",
+  "bbox_wgs84": [
+    -98.57,
+    29.39,
+    -98.5,
+    29.46
+  ],
+  "retrieved_utc": "2026-11-13T19:38:29.646902+00:00",
+  "features": 0,
+  "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+  "note": "TCEQ Edwards Aquifer regulatory zones. Regional geological/environmental context, not borehole or tunneling data.",
+  "description": "",
+  "copyright": "",
+  "editingInfo": null
+}

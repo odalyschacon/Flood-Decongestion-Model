@@ -1,0 +1,8 @@
+**
+!Dockerfile.earth2
+!Dockerfile.earth2-local
+!requirements-earth2.txt
+!earth2_forecast.py
+!floodlab.py
+!geo.py
+!verify_earth2_gpu.py

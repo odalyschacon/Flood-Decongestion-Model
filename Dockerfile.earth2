@@ -1,0 +1,9 @@
+FROM nvcr.io/nvidia/pytorch:26.04-py3
+WORKDIR /opt/floodlab
+RUN apt-get update && apt-get install -y --no-install-recommends libeccodes-tools libeccodes-dev git && rm -rf /var/lib/apt/lists/*
+COPY requirements-earth2.txt .
+# Preserve NVIDIA's hardware-compatible PyTorch rather than silently replacing it.
+RUN python -c "import importlib.metadata as m; print('torch=='+m.version('torch'))" > /tmp/torch-constraint.txt \
+    && python -m pip install --constraint /tmp/torch-constraint.txt -r requirements-earth2.txt
+COPY earth2_forecast.py floodlab.py geo.py ./
+ENTRYPOINT ["python", "earth2_forecast.py"]

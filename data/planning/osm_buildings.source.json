@@ -1,0 +1,12 @@
+{
+  "source": "https://www.openstreetmap.org/copyright",
+  "license": "ODbL; OpenStreetMap contributors",
+  "overpass_query": "[out:json][timeout:45];way[\"building\"](29.39,-98.57,29.46,-98.50);out geom;",
+  "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+  "osm_metadata": {
+    "timestamp_osm_base": "2026-11-13T19:38:10Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "raw_sha256": "8fdb896d02f25dc830a3edb1d9411e051474544753339bb7b8d866fd8a429f3c",
+  "limitations": "Ways only, excludes multipolygon relations. Incomplete coverage. Draft polygon overlap is not predicted flood depth or a safety designation."
+}

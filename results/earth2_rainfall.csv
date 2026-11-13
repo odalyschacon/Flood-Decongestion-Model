@@ -1,0 +1,5 @@
+start_utc,end_utc,rain_mm,source,model,member,latitude,longitude
+2026-11-13T12:00:00+00:00,2026-11-13T18:00:00+00:00,0.0,NVIDIA Earth2Studio,FCN + PrecipitationAFNO,deterministic,29.5,-98.5
+2026-11-13T18:00:00+00:00,2026-11-14T00:00:00+00:00,0.00037400363362394273,NVIDIA Earth2Studio,FCN + PrecipitationAFNO,deterministic,29.5,-98.5
+2026-11-14T00:00:00+00:00,2026-11-14T06:00:00+00:00,0.2749791443347931,NVIDIA Earth2Studio,FCN + PrecipitationAFNO,deterministic,29.5,-98.5
+2026-11-14T06:00:00+00:00,2026-11-14T12:00:00+00:00,3.516552209854126,NVIDIA Earth2Studio,FCN + PrecipitationAFNO,deterministic,29.5,-98.5
